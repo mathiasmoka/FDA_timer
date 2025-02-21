@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca112dd3.css",
-    "main.js": "/static/js/main.b6a0bd60.js",
-    "static/js/453.3566a085.chunk.js": "/static/js/453.3566a085.chunk.js",
-    "index.html": "/index.html",
-    "main.ca112dd3.css.map": "/static/css/main.ca112dd3.css.map",
-    "main.b6a0bd60.js.map": "/static/js/main.b6a0bd60.js.map",
-    "453.3566a085.chunk.js.map": "/static/js/453.3566a085.chunk.js.map"
+    "main.css": "/FDA_timer/static/css/main.ca112dd3.css",
+    "main.js": "/FDA_timer/static/js/main.e0959edf.js",
+    "static/js/453.3566a085.chunk.js": "/FDA_timer/static/js/453.3566a085.chunk.js",
+    "index.html": "/FDA_timer/index.html",
+    "main.ca112dd3.css.map": "/FDA_timer/static/css/main.ca112dd3.css.map",
+    "main.e0959edf.js.map": "/FDA_timer/static/js/main.e0959edf.js.map",
+    "453.3566a085.chunk.js.map": "/FDA_timer/static/js/453.3566a085.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca112dd3.css",
-    "static/js/main.b6a0bd60.js"
+    "static/js/main.e0959edf.js"
   ]
 }
