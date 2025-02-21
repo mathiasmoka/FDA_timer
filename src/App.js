@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import SetupScreen from "./components/SetupScreen";
+import DebateTimer from "./components/DebateTimer";
 
 function App() {
+  const [debateData, setDebateData] = useState(null);
+
+  const handleSetupComplete = (data) => {
+    setDebateData(data);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {debateData ? (
+        <DebateTimer debateTitle={debateData.debateTitle} speakers={debateData} />
+      ) : (
+        <SetupScreen onSetupComplete={handleSetupComplete} />
+      )}
     </div>
   );
 }
